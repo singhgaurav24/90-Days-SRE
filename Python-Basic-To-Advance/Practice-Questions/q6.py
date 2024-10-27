@@ -7,4 +7,4 @@ if(a%7 == 0):
 else:
     output = "No"
 
-print("This number is multiple of 7", output)
+print("This number is multiple of 7 : ", output)
