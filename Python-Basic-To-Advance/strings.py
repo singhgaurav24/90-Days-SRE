@@ -1,3 +1,5 @@
+# Strings are immutable in python
+
 fName = "Gaurav"
 mName = "Kumar"
 lName = "Singh"
