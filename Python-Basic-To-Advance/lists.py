@@ -38,5 +38,17 @@ a_list.sort()  # sorting in ascending order
 print(a_list.sort()) # it will print the NONE as it's changing the original list
 print(a_list) # print the sorted list
 
-a_list.sort(reverse=True)
+a_list.sort(reverse=True) # sort in desscending order
 print(a_list)
+
+# insert(index, element) --> Insert element at index number
+list_2 = [2,3,4,5]
+list_2.insert(1,9)
+print(list_2)
+
+# remove(4) --> remove the first occurrenece of element --> It will remove the elememt 4
+# pop(index) --> removes element at a particular index
+list_2.remove(4) # remove the element 4 (first occurrenece)
+print(list_2)
+list_2.pop(2) # remove the element at index 2
+print(list_2)
