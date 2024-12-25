@@ -2,9 +2,7 @@
 WAP to enter marks of 3 subjects 
 """
 
-marks = {
-
-}
+marks = {}
 
 x = int(input("enter marks of chem : "))
 marks.update({"chem" : x})
